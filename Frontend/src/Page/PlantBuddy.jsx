@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Line } from "react-chartjs-2";
 import "chart.js/auto";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:4000";
+const API_URL = import.meta.env.VITE_API_URL || "https://plant-monitor-5hth.onrender.com";
 
 /**
  * PlantBuddy (Option A)
